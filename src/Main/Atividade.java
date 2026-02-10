@@ -10,9 +10,6 @@ b) Quantos homens pesam mais de 100Kg
 c) A média de peso entre as mulheres
 d) O maior peso entre os homens*/
 
-//teste de commmit 1 2 3
-
-// teste
 
 public class Atividade {
     public static void main(String[] args) {
