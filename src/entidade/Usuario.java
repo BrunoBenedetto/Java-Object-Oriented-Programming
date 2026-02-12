@@ -2,11 +2,30 @@ package entidade;
 
 public class Usuario {
 
-    String email;
-    String senha;
+    public String email;
+    public String senha;
 
-    public void compras(){
+    //Assinatura de um construtor = nome + parametro e tipo
+    public Usuario(String email, String senha) {
 
+        System.out.println("Autenticação por email e senha");
+
+
+
+    }
+
+    public Usuario(String telefone, int cep) {
+
+        System.out.println("Autenticação por telefone");;
+
+//        this.email = email;
+//        this.senha = senha;
+//
+//        System.out.println(email);
+//        System.out.println(senha);
+    }
+
+    public void compras() {
 
 
     }
