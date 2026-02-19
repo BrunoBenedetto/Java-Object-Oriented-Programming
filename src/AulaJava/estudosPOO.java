@@ -35,8 +35,9 @@ public class estudosPOO {
         System.out.println("Salario com desconto: R$" + salarioComDesconto);*/
 
 //        Usuario usuario = new Usuario("bruno@email.com", "00000");
-        Usuario usuario = new Usuario("99999999", 1445);
+        Usuario usuario = new Usuario();
 
+        usuario.logar("123");
 
         System.out.println(usuario);
 

@@ -5,29 +5,19 @@ public class Usuario {
     public String email;
     public String senha;
 
-    //Assinatura de um construtor = nome + parametro e tipo
-    public Usuario(String email, String senha) {
 
-        System.out.println("Autenticação por email e senha");
+    /*Assinatura de um construtor ou de um metodo = nome + parametro e tipo*/
 
+    public void logar(String telefone) {
 
-
-    }
-
-    public Usuario(String telefone, int cep) {
-
-        System.out.println("Autenticação por telefone");;
-
-//        this.email = email;
-//        this.senha = senha;
-//
-//        System.out.println(email);
-//        System.out.println(senha);
-    }
-
-    public void compras() {
+        System.out.println("Logar com telefone");
 
 
     }
 
+    public void logar(String email, String senha) {
+
+        System.out.println("Logar com email e senha");
+    }
 }
+
