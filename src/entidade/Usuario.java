@@ -2,8 +2,8 @@ package entidade;
 
 public class Usuario {
 
-    public String email;
-    public String senha;
+    private String email;
+    private String senha;
 
 
     /*Assinatura de um construtor ou de um metodo = nome + parametro e tipo*/
@@ -11,6 +11,7 @@ public class Usuario {
     public void logar(String telefone) {
 
         System.out.println("Logar com telefone");
+        this.senha = "1234";
 
 
     }

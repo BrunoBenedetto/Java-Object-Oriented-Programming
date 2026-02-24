@@ -1,8 +1,6 @@
 package AulaJava;
 
-import entidade.Carro;
-import entidade.FuncionarioEmpresa;
-import entidade.Usuario;
+import entidade.*;
 
 import java.util.Locale;
 import java.util.Scanner;
@@ -34,12 +32,33 @@ public class estudosPOO {
 
         System.out.println("Salario com desconto: R$" + salarioComDesconto);*/
 
-//        Usuario usuario = new Usuario("bruno@email.com", "00000");
-        Usuario usuario = new Usuario();
+////        Usuario usuario = new Usuario("bruno@email.com", "00000");
+//        Usuario usuario = new Usuario();
+//
+//        usuario.logar("123");
+//
+//        System.out.println(usuario);
+//
+//        usuario.logar("bruno@email.com","00101010");
 
-        usuario.logar("123");
+        Cachorro cachorro = new Cachorro();
+        cachorro.cor = "Preto";
+        cachorro.peso = 30.0;
+        cachorro.tamanho = 12;
+        cachorro.correr();
+        cachorro.dormir();
+        cachorro.latir();
 
-        System.out.println(usuario);
+        System.out.println("----------------------------");
+
+        Passaro passaro = new Passaro();
+        passaro.cor = "Azul";
+        passaro.peso = 2.1;
+        passaro.tamanho = 2;
+        passaro.correr();
+        passaro.dormir();
+        passaro.voar();
+
 
         sc.close();
     }
