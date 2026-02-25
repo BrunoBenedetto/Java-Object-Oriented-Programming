@@ -6,7 +6,7 @@ import java.util.Locale;
 import java.util.Scanner;
 
 public class estudosPOO {
-    public static void main(String[] args) {
+    static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in).useLocale(Locale.US);
 
@@ -32,14 +32,14 @@ public class estudosPOO {
 
         System.out.println("Salario com desconto: R$" + salarioComDesconto);*/
 
-//        Usuario usuario = new Usuario("bruno@email.com", "00000");
-//        Usuario usuario = new Usuario();
-//
-//        usuario.logar("123");
-//
-//        System.out.println(usuario);
-//
-//        usuario.logar("bruno@email.com","00101010");
+        /*Usuario usuario = new Usuario("bruno@email.com", "00000");
+        Usuario usuario = new Usuario();
+
+        usuario.logar("123");
+
+        System.out.println(usuario);
+
+        usuario.logar("bruno@email.com","00101010");
 
         Cachorro cachorro = new Cachorro();
         cachorro.cor = "Preto";
@@ -57,8 +57,14 @@ public class estudosPOO {
         passaro.tamanho = 2;
         passaro.correr();
         passaro.dormir();
-        passaro.voar();
+        passaro.voar();*/
 
+
+        Animal meuAnimal1 = new Cachorro();
+        Animal meuAnimal2 = new Gato();
+
+        meuAnimal1.fazerSom();
+        meuAnimal2.fazerSom();
 
         sc.close();
     }

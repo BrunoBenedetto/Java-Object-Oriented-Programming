@@ -1,11 +1,9 @@
 package entidade;
 
-public class Cachorro extends Animal{
+public class Cachorro extends Animal {
 
-    public void latir(){
+    public void fazerSom() {
 
-        System.out.println("Latir");
+        System.out.println("Latindo");
     }
-
-
 }
