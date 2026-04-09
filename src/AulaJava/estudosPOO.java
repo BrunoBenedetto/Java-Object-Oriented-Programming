@@ -60,12 +60,19 @@ public class estudosPOO {
         passaro.voar();*/
 
 
-        Animal meuAnimal1 = new Cachorro();
-        Animal meuAnimal2 = new Gato();
+//        Animal meuAnimal1 = new Cachorro();
+//        Animal meuAnimal2 = new Gato();
+//
+//        meuAnimal1.fazerSom();
+//        meuAnimal2.fazerSom();
+//
+//        sc.close();
 
-        meuAnimal1.fazerSom();
-        meuAnimal2.fazerSom();
+        Programador programador = new Programador();
+        DevWeb devWeb = new DevWeb();
 
-        sc.close();
+
+        programador.canditarPresidente();
+        //devWeb.Presidente();
     }
 }
